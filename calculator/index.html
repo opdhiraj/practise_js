@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" id="row">
+        <div class="col bg-light">Calculator</div>
+      </div>
+      <div class="row">
+        <input
+          type="button"
+          class="col-9 bg-primary text-center"
+          value=""
+          id="result"
+        />
+
+        <input
+          type="button"
+          value="clear"
+          class="col bg-secondary text-center"
+          id="clear"
+          onclick="handleClear(event)"
+        />
+      </div>
+
+      <div class="row mt-1">
+        <input
+          type="button"
+          value="1"
+          class="col-3 bg-primary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="2"
+          class="col-3 bg-secondary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="3"
+          class="col-3 bg-primary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="/"
+          class="col bg-secondary text-center"
+          onclick="handleClick(event)"
+        />
+      </div>
+      <div class="row mt-1">
+        <input
+          type="button"
+          value="4"
+          class="col-3 bg-primary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="5"
+          class="col-3 bg-secondary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="6"
+          class="col-3 bg-primary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="-"
+          class="col bg-secondary text-center"
+          onclick="handleClick(event)"
+        />
+      </div>
+      <div class="row mt-1">
+        <input
+          type="button"
+          value="7"
+          class="col-3 bg-primary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="8"
+          class="col-3 bg-secondary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="9"
+          class="col-3 bg-primary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="+"
+          class="col bg-secondary text-center"
+          onclick="handleClick(event)"
+        />
+      </div>
+
+      <div class="row mt-1">
+        <input
+          type="button"
+          value="."
+          class="col-3 bg-primary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="0"
+          class="col-3 bg-secondary text-center"
+          onclick="handleClick(event)"
+        />
+        <input
+          type="button"
+          value="="
+          class="col-3 bg-primary text-center"
+          onclick="handleSolve(event)"
+        />
+        <input
+          type="button"
+          value="*"
+          class="col bg-secondary text-center"
+          onclick="handleClick(event)"
+        />
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

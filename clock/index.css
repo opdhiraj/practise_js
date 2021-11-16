@@ -1,0 +1,22 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  background-color: yellow;
+  border: 1px solid black;
+  height: 100vh;
+}
+.clock {
+  background-color: blue;
+
+  font-size: 135px;
+  text-align: center;
+  margin-top: 20rem;
+  border: 3px solid black;
+}

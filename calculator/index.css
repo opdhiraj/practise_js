@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellowgreen;
+  font-weight: 400;
+}
+#row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+#result input {
+  text-align: center;
+  width: 100%;
+}
+
+#clear {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
